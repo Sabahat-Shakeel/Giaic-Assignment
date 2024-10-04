@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 const HomePage = () => {
+  
   return (
-    <div className="flex portrait:flex-col portrait:py-6 sm:py-6 flex-row justify-between items-center min-h-screen px-10 text-white bg-gradient-to-r from-[#22333b] via-[#a3b18a] to-[#001219] bg-[length:200%_200%] animate-gradient-bg">
+    <div className="flex portrait:flex-col portrait:py-1 sm:py-6 flex-row justify-between items-center min-h-screen px-10 text-white bg-gradient-to-r from-[#22333b] via-[#a3b18a] to-[#001219] bg-[length:200%_200%] animate-gradient-bg">
       <div className="flex flex-col items-center text-center justify-center">
         <h1 className="sm:text-6xl text-5xl font-bold mb-4 font-[Poppins] slide-in-left">
           SAMSUNG GALAXY S24+ Ultra
@@ -21,7 +22,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex-shrink-0 ">
+      <div className="flex-shrink-0  ">
         <Image
           src="/phone.png"
           alt="Background Image"
