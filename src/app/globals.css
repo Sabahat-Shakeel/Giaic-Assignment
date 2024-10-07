@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes slideInLeft {
   0% {
     transform: translateX(-50%);
@@ -44,4 +43,3 @@ body {
     text-wrap: balance;
   }
 }
-
