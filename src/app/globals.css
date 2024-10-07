@@ -13,6 +13,17 @@
   }
 }
 
+
+
+@media (orientation: portrait) {
+  .my-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+}
+
+
 .slide-in-left {
   animation: slideInLeft 1.5s ease-out both;
 }
